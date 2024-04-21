@@ -1,0 +1,38 @@
+[
+    {
+      "model": "myapp.products",
+      "pk": 1,
+      "fields": {
+        "name": "Backpack",
+        "price": 100,
+        "description": "A backpack for all your needs"
+      }
+    },
+    {
+      "model": "myapp.products",
+      "pk": 2,
+      "fields": {
+        "name": "Shoes",
+        "price": 50,
+        "description": "A pair of shoes"
+      }
+    },
+    {
+      "model": "myapp.products",
+      "pk": 3,
+      "fields": {
+        "name": "T-shirt",
+        "price": 20,
+        "description": "A t-shirt"
+      }
+    },
+    {
+      "model": "myapp.products",
+      "pk": 4,
+      "fields": {
+        "name": "Jeans",
+        "price": 60,
+        "description": "A pair of jeans"
+      }
+    }
+  ]
