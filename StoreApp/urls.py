@@ -22,5 +22,11 @@ from myapp import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("home/", views.home),
-    path("", RedirectView.as_view(url="home/", permanent=True)),
+    path('products/', views.products_list, name='products_list'),
+    path("", RedirectView.as_view(url="home/", permanent=False)),
+]
+
+urlpatterns += [
+    path('products/<int:id>/', views.product_detail,
+    name='product_detail'),
 ]
